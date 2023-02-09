@@ -21,7 +21,7 @@ body {
     flex: 20%;
     margin-left: 10%;
     /* border: 3px solid red; */
-    text-align: center;
+    text-align: left;
 }
 
 .logo h1{
@@ -65,5 +65,59 @@ body {
     background: #FF2978;
 
 }
-
 /* Ende Navbar */
+
+/* Header */
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    text-align: center;
+   
+
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+
+}
+
+.contact-btn{
+    display: inline-block;
+    background-color: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background-color: #180F4A;
+
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+/* End Header */
