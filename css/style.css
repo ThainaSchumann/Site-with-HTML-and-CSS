@@ -1,8 +1,9 @@
 *{
     box-sizing: border-box;
-
+  
 }
 
+/* Navbar */
 body {
     margin: 0;
 }
@@ -64,3 +65,5 @@ body {
     background: #FF2978;
 
 }
+
+/* Ende Navbar */
