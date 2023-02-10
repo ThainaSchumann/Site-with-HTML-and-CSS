@@ -20,7 +20,6 @@ body {
 .logo {
     flex: 20%;
     margin-left: 10%;
-    /* border: 3px solid red; */
     text-align: left;
 }
 
@@ -33,7 +32,6 @@ body {
 
 .menu {
     flex: 70%;
-    /* border: 1px solid green; */
     text-align: right;
     padding: 20px;
 }
@@ -121,11 +119,11 @@ body {
 }
 /* End Header */
 
-/* Start section */
+/* Start section -cards*/
 section{
     display: inline-block;
     margin-top: 80px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 5%;
     margin-right: 5%;
     padding: 5%;
@@ -155,5 +153,28 @@ section h2{
     border: 1px solid #FF2978;
     border-radius: 10px;
     cursor: pointer;
+}
 
+.hidden-text{
+    display: none;
+
+}
+
+.card:hover{
+    background-color: #FF2978;
+    color: white;
+    padding:40px;
+
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .hidden-text{
+    display: block;
 }
