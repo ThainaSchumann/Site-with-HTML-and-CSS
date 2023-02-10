@@ -6,6 +6,7 @@
 /* Navbar */
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -15,6 +16,8 @@ body {
     background-color: white;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -27,7 +30,6 @@ body {
     font-family: 'Lobster', cursive;
     color: #180F4A;
     font-size: 34px;
-
 }
 
 .menu {
@@ -71,6 +73,8 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    padding-top:100px;
 
 
 }
@@ -123,7 +127,6 @@ body {
 section{
     display: inline-block;
     margin-top: 80px;
-    /* border: 1px solid black; */
     margin-left: 5%;
     margin-right: 5%;
     padding: 5%;
@@ -177,4 +180,31 @@ section h2{
 
 .card:hover .hidden-text{
     display: block;
+}
+/* End section -cards*/
+
+/* Start FOOTER*/
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
+
+.logo-footer{
+    padding: 100px;
+}
+.agency{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 34px
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 100px;
+    cursor: pointer;
 }
